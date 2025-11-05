@@ -5,6 +5,7 @@ int suma(int a, int b) {
     return a + b;
 }
 
+
 // Programa principal (pide los números al usuario y limpia memoria)
 int main() {
     int a = 0, b = 0, resultado = 0;
