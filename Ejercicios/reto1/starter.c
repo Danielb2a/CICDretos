@@ -7,7 +7,7 @@ int suma(int a, int b) {
 
 
 // Programa principal (pide los números al usuario y limpia memoria)
-int main() {
+/*int main() {
     int a = 0, b = 0, resultado = 0;
 
     printf("Introduce el primer número: ");
@@ -33,4 +33,5 @@ int main() {
     fflush(stdout);
 
     return 0;
-}
+    
+}*/

@@ -5,7 +5,7 @@
 int suma(int a, int b);
 
 void test_suma_positivos() {
-    assert(suma(3, 4) == 7);
+    assert(suma(3, 4) == 7000);
     printf("✅ Test suma de positivos OK\n");
 }
 
