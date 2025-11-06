@@ -1,0 +1,19 @@
+name: CI with Docker
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  docker-build-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout del código
+      uses: actions/checkout@v3
+
+    - name: Construir imagen Docker
+      run: docker build -t reto11 .
+
+    - name: Ejecutar contenedor y correr app
+      run: docker run --rm reto11
